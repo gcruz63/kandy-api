@@ -1,0 +1,42 @@
+{
+    "locations": [
+        {"id": 1, "address": "3425 west shop" },
+        {"id": 2, "address": "5687 east shop" },
+        {"id": 3, "address": "7980 north shop"}
+    ],
+    "products": [
+        {"id": 1, "name": "Ferrero Rocher", "price": 3, "productTypeId": 1},
+        {"id": 2, "name": "Hershey's", "price": 2, "productTypeId": 1},
+        {"id": 3, "name": "Hubba Bubba", "price": 3, "productTypeId": 2},
+        {"id": 4, "name": "Bazooka Joe", "price": 1, "productTypeId": 2},
+        {"id": 5, "name": "Dubble Bubble", "price": 4, "productTypeId": 2},
+        {"id": 6, "name": "Necco", "price": 2, "productTypeId": 3},
+        {"id": 7, "name": "Life Savers", "price": 3, "productTypeId": 3}
+    ],
+    "employees": [
+        {"id": 1, "name": "Ron", "locationId": 1},
+        {"id": 2, "name": "Bob", "locationId": 1},
+        {"id": 3, "name": "Becca", "locationId": 2},
+        {"id": 4, "name": "Liz", "locationId": 2},
+        {"id": 5, "name": "Ray", "locationId": 3},
+        {"id": 6, "name": "Ari", "locationId": 3},
+        {"id": 7, "name": "Joe", "locationId": 2},
+        {"id": 8, "name": "Jake", "locationId": 1},
+        {"id": 9, "name": "Lee", "locationId": 3}
+    ],
+    "productTypes": [
+        {"id": 1, "name": "Chocolate"},
+        {"id": 2, "name": "Gum"},
+        {"id": 3, "name": "Hard Candy"}
+    ],
+    "inventory": [
+
+    ],
+    "customers": [
+        {"id": 1, "name": "Sponge Bob"}
+    ],
+    "purchases": [
+        {"id": 1, "customerId": 1, "inventoryId": 1, "itemsSold": 3, "employeeId": 2, "timestamp": "2-3-2021"}
+    ]
+    
+}
